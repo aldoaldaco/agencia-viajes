@@ -1,0 +1,7 @@
+{
+  "name": "agencia-viajes",
+  "short_name": "agencia-viajes",
+  "description": "App to get information about some flights.",
+  "start_url": "/",
+  "display": "standalone"
+}

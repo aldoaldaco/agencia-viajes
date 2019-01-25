@@ -1,0 +1,13 @@
+{
+  "name": "agencia-viajes",
+  "description": "App to get information about some flights.",
+  "dependencies": {
+    "@polymer/paper-tabs": "^3.0.1",
+    "@polymer/polymer": "^3.0.0",
+    "swiper": "^4.4.6"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  }
+}

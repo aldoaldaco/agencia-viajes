@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>agencia-viajes</title>
+    <meta name="description" content="App to get information about some flights.">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module" src="/src/agencia-viajes-app/agencia-viajes-app.js"></script>
+    <!--<script type="module" src="/src/agencia-viajes-header/agencia-viajes-header.js"></script>-->
+    <style>
+      body, * {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: #e5e5e5;
+      }
+    </style>
+  </head>
+  <body>
+    <agencia-viajes-app></agencia-viajes-app>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBYX3d9MGdm3MQgAaHG-YBfg2ykDuhzdIo",
+      authDomain: "viajes-agencia.firebaseapp.com",
+      databaseURL: "https://viajes-agencia.firebaseio.com",
+      projectId: "viajes-agencia",
+      storageBucket: "viajes-agencia.appspot.com",
+      messagingSenderId: "642593432751"
+    };
+    firebase.initializeApp(config);
+  </script>
+</html>
